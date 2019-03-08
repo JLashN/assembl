@@ -380,3 +380,15 @@ export const titleTooltip = (content: React.Node) => (
     {content}
   </Tooltip>
 );
+
+export const editSynthesisTooltip = (
+  <Tooltip id="editSynthesisTooltip">
+    <Translate value="debate.syntheses.editSynthesisTooltip" />
+  </Tooltip>
+);
+
+export const deleteSynthesisTooltip = (
+  <Tooltip id="deleteSynthesisTooltip">
+    <Translate value="debate.syntheses.deleteSynthesisTooltip" />
+  </Tooltip>
+);
